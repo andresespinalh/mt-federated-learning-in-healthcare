@@ -1,0 +1,19 @@
+{
+    "exp_name": "FedFNNEEGSignals"
+    , "experiment_type": "Federated"
+    , "dataset": "Stratified"
+    , "resource": "Cloud"
+    , "device": "cuda"
+    , "n_rounds": 500
+    , "n_epochs": 1
+    , "n_layers": 2
+    , "n_units": 64
+    , "learning_rate": 1e-2
+    , "decision_boundary": 0.5
+    , "perc_dropout": 0.0
+    , "optimizer": "Adam"
+    , "loss_function": "BCEWithLogitsLoss"
+    , "data_path": "../../../data/outputs/eeg-signals/data-prep/partitions"
+    , "models_path": "../../../data/outputs/eeg-signals/models/federated/stage"
+    , "logs_path": "../../../data/logs/experiments/eegsignals_ffn"
+}

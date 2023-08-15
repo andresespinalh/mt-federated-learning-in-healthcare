@@ -1,0 +1,21 @@
+{
+    "exp_name": "FedCaraNetPolypDS"
+    , "experiment_type": "Federated"
+    , "resource": "Cloud"
+    , "device": "cuda"
+    , "n_rounds": 1
+    , "epoch": 2
+    , "lr": 0.0001
+    , "optimizer": "Adam"
+    , "augmentation": true
+    , "batchsize": 8
+    , "trainsize": 352
+    , "clip": 0.5
+    , "decay_rate": 0.1
+    , "decay_epoch": 50
+    , "test_path": "../../../data/inputs/kvasir/test"
+    , "evaluate_path": "../../../data/inputs/kvasir/evaluate"
+    , "models_path": "../../../data/outputs/cnn_caranet_kvasir/models/federated/stage"
+    , "logs_path": "../../../data/logs/experiments/cnn_caranet_kvasir"
+    , "mode": "Test"
+}

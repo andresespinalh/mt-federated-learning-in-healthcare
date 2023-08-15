@@ -1,0 +1,18 @@
+{
+    "experiment_name": "EEGSignals"
+    , "experiment_type": "Centralized"
+    , "dataset": "PatientAware"
+    , "resource": "Cloud"
+    , "device": "cuda"
+    , "n_epochs": 3000
+    , "n_layers": 2
+    , "n_units": 64
+    , "learning_rate": 1e-2
+    , "decision_boundary": 0.5
+    , "perc_dropout": 0.0
+    , "optimizer": "Adam"
+    , "loss_function": "BCEWithLogitsLoss"
+    , "data_path": "../../../data/outputs/eeg-signals/data-prep/partitions"
+    , "models_path": "../../../data/outputs/eeg-signals/models"
+    , "logs_path": "../../../data/logs/experiments/eegsignals_ffn"
+} 

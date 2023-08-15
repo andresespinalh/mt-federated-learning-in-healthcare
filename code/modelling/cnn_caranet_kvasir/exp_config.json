@@ -1,0 +1,20 @@
+{
+    "exp_name": "CaraNet_PolypDS"
+    , "exp_type": "Centralized"
+    , "exp_resource": "Cloud"
+    , "exp_device": "cuda"
+    , "epoch": 20
+    , "lr": 0.0001
+    , "optimizer": "Adam"
+    , "augmentation": true
+    , "batchsize": 8
+    , "trainsize": 352
+    , "clip": 0.5
+    , "decay_rate": 0.1
+    , "decay_epoch": 50
+    , "train_path": "../../../data/inputs/kvasir/train"
+    , "test_path": "../../../data/inputs/kvasir/test"
+    , "models_path": "../../../data/outputs/cnn_caranet_kvasir/models"
+    , "logs_path": "../../../data/logs/experiments/cnn_caranet_kvasir"
+    , "evaluate_path": "../../../data/inputs/kvasir/evaluate"
+}
